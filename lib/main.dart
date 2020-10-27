@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:meal_app_tutorial/screens/home/home_page.dart';
 
@@ -23,6 +22,22 @@ class MyApp extends StatelessWidget {
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
         primarySwatch: Colors.blue,
+        accentColor: Colors.amber,
+        canvasColor: Color.fromRGBO(255, 254, 233, 1),
+        fontFamily: 'Raleway',
+        textTheme: ThemeData.light().textTheme.copyWith(
+          bodyText1: TextStyle(
+            color: Color.fromRGBO(23, 23, 20, 1),
+          ),
+          bodyText2: TextStyle(
+            color: Color.fromRGBO(23, 23, 20, 1),
+          ),
+          headline1: TextStyle(
+            fontSize: 20,
+            fontFamily: 'RobotoCondensed',
+            fontWeight: FontWeight.bold,
+          )
+        ),
         // This makes the visual density adapt to the platform that you run
         // the app on. For desktop platforms, the controls will be smaller and
         // closer together (more dense) than on mobile platforms.
