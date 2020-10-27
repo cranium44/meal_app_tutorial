@@ -6,7 +6,7 @@ class MealDetailScreen extends StatelessWidget {
 
   Widget buildListContainer({Widget child}) {
     return Container(
-      height: 200,
+      height: 180,
       width: 300,
       padding: const EdgeInsets.symmetric(
         vertical: 10,
