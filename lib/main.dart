@@ -35,7 +35,7 @@ class _MyAppState extends State<MyApp> {
         if (_filters['vegetarian'] && !meal.isVegetarian) return false;
         if (_filters['vegan'] && !meal.isVegan) return false;
         return true;
-      });
+      }).toList();
     });
   }
 
