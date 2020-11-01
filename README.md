@@ -1,16 +1,13 @@
 # meal_app_tutorial
 
-A new Flutter project.
+A Flutter project to study app navigation and basic state management.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+- app displays static meal data.
+- has a bottom navigation tab
+- has a navigation drawer
+- meals are arranged into categories that can be viewed sperately
+- app allows saving as favourite and filtering of the meals by type
+  
+## Unimplemented features
+- app has no persistence, as such all states are reset on restart of the app. To be implemented
